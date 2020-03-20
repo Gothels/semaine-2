@@ -1,0 +1,30 @@
+.carre{
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    color: black;
+    border: 3px black solid;
+    }
+.text1{
+    position: absolute;
+    color: black;
+    width: 250px;
+    height: 130px;
+    border: 3px red solid;
+    top:  95px;
+    left: 190px;
+}
+.text2{
+    position: absolute;
+    color: black;
+    top: 170px;
+    left: 370px;
+}
+.text3{
+    position: relative;
+    border: 3px black solid;
+    top: 20px;
+    height: 140px;
+    width: 250px;
+    left: 500px;
+}

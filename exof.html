@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exof.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulaire">
+        <p>Civilité : </p>
+            <input type="radio" name="civilité" value="Mademoiselle" checked="checked">
+            <label for="mademoiselle" class="inline">Mademoiselle</label>
+            <input type="radio" name="civilité" value="Madame" checked="checked">
+            <label for="Madame" class="inline">Madame</label>
+            <input type="radio" name="civilité" value="Monsieur" checked="checked">
+            <label for="Monsieur" class="inline">Monsieur</label>
+        
+        <p>Non/Prénon :  </p>
+            <input type="text" id="Non" name="Non">
+       
+        <p>Adresse :</p>
+            <input type="text" name="Adresse" id="Adresse">
+        
+        <p>No Postale/Localité :</p>
+            <input type="text" name="postale" id="postale">
+        
+        <p>Pays :</p>
+            <select>
+                <option selected>France</option>
+                <option>Tunisie</option>
+                <option>Espagne</option>
+                <option>Italie</option>
+            </select>
+        
+        <p>Plateforme(s) :</p>
+            <input type="radio"name="Windows">
+            <label for="plateforme" class="plateforme">Windows</label>
+            <input type="radio"name="Mascintosh">
+            <label for="plateforme" class="plateforme">Mascintosh</label>
+            <input type="radio" name="linux">
+            <label for="plateforme" class="plateforme">Linux</label>
+        
+        <p>Aplication(s) : 
+            <select name="apli" id="apli" multiple>
+                <option>Bureautique</option>
+                <option>DAO</option>
+                <option>Statistique</option>
+                <option>SGBD</option>
+                <option>Internet</option>
+            </select>
+        </p>
+        <button class="button">
+            Soumettre Le formulaire
+        </button>
+        <button class="Buttom">
+            Effacer
+        </button>
+    </form>
+</body>
+</html>
